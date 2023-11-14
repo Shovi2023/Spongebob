@@ -1,0 +1,77 @@
+body{
+  background-color:rgb(120, 145, 224);
+  font-family:'SpongeBob Font Condensed', sans-serif;
+font-family: 'SpongeBob Font Wide', sans-serif;
+font-size: 60px;
+margin-left: 7%;
+margin-top: 50px;
+
+}
+
+
+.f {
+  height:900px;
+  width:auto;
+  position:absolute;
+  left:50%;
+  top:100%;
+  transform: translate(-50%,-50%);
+}
+.f1 {
+  height:550px;
+  width:auto;
+  position:absolute;
+  left:50%;
+  top:100%;
+  transform: translate(-50%,-50%);
+}
+
+.icon{
+height:900px;
+width:auto;
+position: absolute;
+left:3%;
+top:230%;
+}
+
+
+.p1{
+  font-family: "ziclets", sans-serif;
+font-weight: 300;
+font-style: normal;
+  font-size: 40px;
+  margin-left: 10%;
+margin-top: 850px;
+margin-right: 20%;
+text-align:center;
+}
+.main{
+  width: 80vw;
+  height: 100vh;
+margin-right: 10%;
+
+}
+
+.pill-nav a {
+  display:flexbox;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 10px;
+  margin-bottom: 10%;
+}
+
+/* Change the color of links on mouse-over */
+.pill-nav a:hover {
+  background-color: #dd7737;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.pill-nav a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
